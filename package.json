@@ -1,0 +1,20 @@
+{
+  "name": "github-to-bigquery",
+  "version": "0.1.0",
+  "description": "",
+  "main": "out/dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "functions-framework --target=GitHubHandler",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm run build",
+    "gcp-build": "npm run build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

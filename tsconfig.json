@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./out/dist",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "noEmit": false,
+    "declaration": true,
+    "strict": true
+  },
+  "exclude": ["node_modules", "src/**/*.spec.ts", "**/__*"],
+  "include": ["src/**/*"]
+}
